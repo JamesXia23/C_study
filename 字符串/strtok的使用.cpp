@@ -6,7 +6,9 @@ void more();
 int main(int argc, char const *argv[])
 {
 	//base();
-	more();
+	// more();
+	char * str = "123\0ttt";
+	cout << str << endl;
 	return 0;
 }
 void base()
